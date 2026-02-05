@@ -30,7 +30,7 @@ function App() {
               <span>Professional Service</span>
             </div>
             
-            <h1 className="company-name">Jeco Services</h1>
+            <h1 className="company-name">Jaco Services</h1>
             <p className="company-tagline">Excellence in Every Detail</p>
             
             <div className="guarantee-banner">

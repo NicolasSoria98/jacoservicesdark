@@ -30,7 +30,7 @@ function App() {
               <span>Professional Service</span>
             </div>
             
-            <h1 className="company-name">Jeff's Home Services</h1>
+            <h1 className="company-name">Jeco Services</h1>
             <p className="company-tagline">Excellence in Every Detail</p>
             
             <div className="guarantee-banner">
@@ -129,7 +129,7 @@ function App() {
                       Quality workmanship guaranteed.
                     </p>
                     <div className="service-features">
-                      <span className="feature-tag">Comfort guaranteed</span>
+                      <span className="feature-tag">Assured comfort</span>
                     </div>
                   </div>
                 </div>

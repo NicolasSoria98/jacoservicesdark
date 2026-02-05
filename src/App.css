@@ -916,3 +916,14 @@ body {
     font-size: 0.813rem;
   }
 }
+@media (min-width: 1440px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .service-card:nth-child(3):last-child {
+    grid-column: 1 / -1;
+    max-width: 600px;
+    justify-self: center;
+  }
+}

@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
+import jeffImage from '../public/image.png'
 
 function App() {
   const [isVisible, setIsVisible] = useState(false)
@@ -41,7 +42,7 @@ function App() {
               </div>
               <div className="guarantee-content">
                 <div className="guarantee-title">SAME DAY CALL BACK</div>
-                <div className="guarantee-subtitle">Guaranteed Price Quote</div>
+                <div className="guarantee-subtitle">With Price</div>
               </div>
             </div>
           </header>
@@ -79,8 +80,7 @@ function App() {
                   <div className="service-content">
                     <h3 className="service-heading">Residential Cleaning</h3>
                     <p className="service-text">
-                      Complete condo cleaning services including dishes, laundry, and professional window washing. 
-                      We transform your space into a pristine sanctuary.
+                      Complete condo cleaning services including dishes, laundry, and professional window washing.
                     </p>
                     <div className="service-features">
                       <span className="feature-tag">Deep Cleaning</span>
@@ -125,8 +125,7 @@ function App() {
                   <div className="service-content">
                     <h3 className="service-heading">Home Improvement</h3>
                     <p className="service-text">
-                      Professional installation services: shower heads, ceiling fans, TV wall mounting, and screen replacement. 
-                      Quality workmanship guaranteed.
+                      Professional installation services: shower heads, ceiling fans, TV wall mounting, and screen replacement.
                     </p>
                     <div className="service-features">
                       <span className="feature-tag">Assured comfort</span>
@@ -144,8 +143,17 @@ function App() {
             <div className="cta-header">
               <h2 className="cta-title">Get Your Free Quote Today</h2>
               <p className="cta-description">
-                Contact Jeff directly for professional service and transparent pricing. 
+                Call or email Jeff today, and get a price today.
               </p>
+            </div>
+
+            {/* Jeff's Image */}
+            <div className="jeff-image-container">
+              <img
+                src={jeffImage}
+                alt="Jeff - Professional Service Provider"
+                className="jeff-image"
+              />
             </div>
             
             <div className="contact-buttons">
@@ -173,7 +181,7 @@ function App() {
                 </div>
               </a>
             </div>
-{/* <div></div> */}
+
             <div className="cta-footer">
               <svg className="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                 <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" strokeLinecap="round" strokeLinejoin="round"/>
